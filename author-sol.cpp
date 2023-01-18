@@ -1,6 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+
+1 2 3 4 (original)
+
+4 3 2 1 (sorted)
+
+3 2 2 1
+2 2 1 1
+1 1 1 1
+1 1 0 0
+0 0 0 0
+
+answer: 5
+
+*/
+
 void test_case(int& tc) {
 	int n;
 	cin >> n;
